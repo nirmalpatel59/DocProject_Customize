@@ -213,6 +213,12 @@
                 nonWords.push(item);
         });
     };
+    Project.add("nirmal123", "myPro")
+        .addCategory("Category1", "My Resume")
+        .addDoc("mydoc1", "information", "Category1",{
+            fileName:"mydoc1",
+            tags: "category"
+        });
 
     Project.data = data;
     Project.getKeywords = getKeywords;
